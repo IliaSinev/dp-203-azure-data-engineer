@@ -2,14 +2,14 @@ Clear-Host
 write-host "Starting script at $(Get-Date)"
 
 $resourceGroupName="Spielwiese_Ilia_Sinev"
-$synapseWorkspace = "synapsedp203Lab18"
-$dataLakeAccountName="datalakedp203Lab18"
+$synapseWorkspace = "synapsedp203lab18"
+$dataLakeAccountName="datalakedp203lab18"
 $sqlDatabaseName = "sql-dp203"
 $sqlUser="SQLuser"
 $sqlPassword="SC1004i$"
 # $Region="westeurope"
 # $sparkPool="sparkdp203Lab18"
-$suffix="dp203Lab18"
+$suffix="dp203lab18"
 
 # Create Synapse workspace
 $eventNsName = "events$suffix"
